@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Kannamma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Slide 1: Intro -->
+  <div class="slide active" id="slide1">
+    <h2>My Dear,</h2>
+    <p>This is a special day for you, and I’m making it more special by this chinnithalli. 💖</p>
+    <button onclick="nextSlide()">Let's Begin</button>
+  </div>
+
+  <!-- Slide 2: Game 1 -->
+  <div class="slide" id="slide2">
+    <h2>💖 Match emojis to unlock a letter, Honey</h2>
+    <div class="grid" id="emojiGame1"></div>
+  </div>
+
+  <!-- Slide 3: Love Letter -->
+  <div class="slide" id="slide3">
+    <h2>My Kannamma 💌</h2>
+    <p>
+      I never knew love could feel this deep until you walked into my life.  
+      Your smile melts my worries. Your voice calms my storms. Your presence feels like home.  
+      Every moment — your silly faces, your sudden silence, your eyes — I’ve fallen for them all.  
+      You are not just my love, you're my peace, my person, my forever.  
+      I love you endlessly,  
+      <br><br>Your Bangaru Konda ❤️
+    </p>
+    <button onclick="nextSlide()">Continue</button>
+  </div>
+
+  <!-- Slide 4: Game 2 -->
+  <div class="slide" id="slide4">
+    <h2>🎁 One last surprise… Match the hearts to reveal your birthday wish!</h2>
+    <div class="grid" id="emojiGame2"></div>
+  </div>
+
+  <!-- Slide 5: Birthday Wish with Cake and Confetti -->
+  <div class="slide" id="slide5">
+    <h2>🎉 Happy Birthday, Honey 🎉</h2>
+    <div class="cake-container">
+      <div class="cake">
+        <div class="candle"></div>
+      </div>
+    </div>
+    <p class="birthday-message">
+      You were born today — and that means the universe gave me my biggest blessing.  
+      Your smile heals, your voice makes my heart dance.  
+      Happy Birthday, Kannamma 💗  
+      I want this life, and every next one, to be with you. 💞
+    </p>
+    <button onclick="nextSlide()">Final Words</button>
+    <canvas id="confettiCanvas"></canvas>
+  </div>
+
+  <!-- Slide 6: Final Words -->
+  <div class="slide" id="slide6">
+    <h2>Forever Yours, Bangaru Konda 💖</h2>
+    <p>
+      I'm so happy because you were beside of me.  
+      You made my life warm, soft, and full of love.  
+      No matter how the world changes,  
+      my love for you will remain stronger than forever.
+    </p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
